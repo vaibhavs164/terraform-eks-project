@@ -85,7 +85,3 @@ terraform destroy
 
 - Check [AWS's supported EKS Kubernetes versions](https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions-standard.html) before setting `cluster_version` — AWS only supports each version for a limited window.
 - `terraform.tfvars` and `terraform.tfstate*` are gitignored — never commit real values or state files, since they can contain sensitive information.
-
-## License
-
-MIT
